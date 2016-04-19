@@ -2249,6 +2249,7 @@ caption {
 }
 th {
   text-align: left;
+  white-space: nowrap;
 }
 .table {
   width: 100%;
@@ -2264,7 +2265,6 @@ th {
   padding: 8px;
   line-height: 1.55;
   vertical-align: top;
-  border-top: 1px solid #dddddd;
 }
 .table > thead > tr > th {
   vertical-align: bottom;
@@ -2439,7 +2439,6 @@ table th[class*="col-"] {
     margin-bottom: 18px;
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 1px solid #dddddd;
   }
   .table-responsive > .table {
     margin-bottom: 0;
@@ -2450,7 +2449,6 @@ table th[class*="col-"] {
   .table-responsive > .table > thead > tr > td,
   .table-responsive > .table > tbody > tr > td,
   .table-responsive > .table > tfoot > tr > td {
-    white-space: nowrap;
   }
   .table-responsive > .table-bordered {
     border: 0;
